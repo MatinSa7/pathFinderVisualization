@@ -25,10 +25,10 @@ export default class Pathfindingvisualizer extends Component {
 
     render() {
         const {nodes} = this.state;
-        console.log(nodes)
+        console.log(nodes);
 
         return (
-            <div>
+            <div className="grid">
             {nodes.map((row, rowIdx) => {
                 return <div>
                     {row.map((node, nodeIdx) => <Node></Node>)}

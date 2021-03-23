@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 
 import './Node.css'
 
-export default class Node extends Component {
+export default class Node extends React.Component {
     constructor(props){
         super(props);
         this.state = {};
     }
 
     render() {
-        return <div classname = "node"></div>;
+        return <div className = "node"></div>;
     }
 }
