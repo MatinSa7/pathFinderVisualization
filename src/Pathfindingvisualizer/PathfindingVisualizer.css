@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 
 body {
-  background-color: #ff8a80;
+  background-color: black;
   font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
   height: 95vh;
@@ -27,7 +27,7 @@ body {
   padding: 1.2rem 2.5rem;
   border: 3px solid #9e1111;
   border-radius: 0rem;
-  color: #2db66b;
+  color: #ffffff;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.3rem;
@@ -148,7 +148,7 @@ body {
   content: "";
   height: 1px;
   width: 60px;
-  background-color: #359cbb;
+  background-color: #000000;
   position: absolute;
   margin-top: 6px;
   right: -35px;
