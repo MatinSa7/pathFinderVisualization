@@ -23,11 +23,12 @@ body {
 
 /*--Button Styles--*/
 .btn-slice {
+  background: green;
   padding: 1.2rem 2.5rem;
-  border: 3px solid #ffffff;
+  border: 3px solid #9e1111;
   border-radius: 0rem;
-  color: #052cdb;
-  font-size: 0.6875rem;
+  color: #2db66b;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.3rem;
   position: relative;
@@ -56,6 +57,7 @@ body {
 }
 
 .btn-slice .top {
+  background: green;
   position: relative;
   height: 6px;
   overflow: hidden;
@@ -85,6 +87,7 @@ body {
 }
 
 .btn-slice .bottom {
+  background-color: green;
   position: relative;
   height: 6px;
   overflow: hidden;
@@ -145,7 +148,7 @@ body {
   content: "";
   height: 1px;
   width: 60px;
-  background-color: #ffffff;
+  background-color: #359cbb;
   position: absolute;
   margin-top: 6px;
   right: -35px;
